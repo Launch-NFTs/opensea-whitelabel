@@ -16,29 +16,37 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            
-          </p>
-          <i className="material-icons right">menu</i>
+        <img src={logo} className="App-logo" alt="logo" />
+         <p>Launch NFTs</p>
         </header>
-        <main className="App-main">
-          <div className="App-hero">
-            <div className="App-hero-image"></div>
-            <p>
-              My Marketplace
-            </p>
-            <small>Digital collectibles from my company</small>
-          </div>
-          <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width='100%' height='100%' frameBorder='0' allowFullScreen></iframe>
-        </main>
-        <footer className="App-footer">
-          {/* Placeholder image for footer */}
-          <img style={{width: '100%'}} src={footer} className="footer" alt="footer" />
-        </footer>
+        <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width='100%' height='150%' frameBorder='10' allowFullScreen></iframe>
       </div>
+      
+      // <div className="App">
+      //   <header className="App-header">
+      //     <img src={logo} className="App-logo" alt="logo" />
+      //     <p>
+            
+      //     </p>
+      //     <i className="material-icons right">menu</i>
+      //   </header>
+      //   <main className="App-main">
+      //     <div className="App-hero">
+      //       <div className="App-hero-image"></div>
+      //       <p>
+      //         My Marketplace
+      //       </p>
+      //       <small>Digital collectibles from my company</small>
+      //     </div>
+      //     <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width='100%' height='100%' frameBorder='10' allowFullScreen></iframe>
+      //   </main>
+      //   <footer className="App-footer">
+      //     {/* Placeholder image for footer */}
+      //     <img style={{width: '100%'}} src={footer} className="footer" alt="footer" />
+      //   </footer>
+      // </div>
     );
   }
 }
